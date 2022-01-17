@@ -25,7 +25,7 @@ drawColor = (255, 0, 255)
 cap = cv2.VideoCapture(0)
 cap.set(3, 720)
 cap.set(4, 1280)
- 
+#HEllo
 detector = handDetector(detectionCon=0.65,maxHands=1)
 xp, yp = 0, 0
 imgCanvas = np.zeros((1280, 720, 3), np.uint8)
